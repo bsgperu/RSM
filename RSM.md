@@ -17,8 +17,8 @@ En **RSM** se plantea que el codigo sea totalmente propio para evitar contaminac
 Por ello el patron de diseño cuenta con 3 tipos segun sus complementos, Propios **(a)**, De Terceros **(b)** y Mixto **(c)**.
 
 Existe la posibilidad de reducir el Patron **RSM** y este se puede representar de 2 formas:
-- **RSM r1** : Variante que utiliza varios archivos los cuales cada uno cumple la funcion de un componente de **RSM**, pensado para Aplicaciones modulares y expandibles.
 
+- **RSM r1** : Variante que utiliza varios archivos los cuales cada uno cumple la funcion de un componente de **RSM**, pensado para Aplicaciones modulares y expandibles.
 - **RSM r2** : Variante que utiliza un unico archivo que cumple con todas las funciones de los componentes de **RSM**, pensado para Aplicaciones estaticas.
 
 **RSM** fue desarrollado por Percy Alexander Caballero Lucano durante la inspeccion de un sistema en el cual la logica presentada era confusa y desordenada, para lo cual se procuro separar y jerarquizar la logica de la interfaz limitando el acceso a los recursos de la aplicacion solo a las clases de la misma aumentando la seguridad ya que solo existe una ruta de acceso al mismo. 
