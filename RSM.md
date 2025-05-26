@@ -44,8 +44,11 @@ Gestiona la logica de negocio asi como el accesos a la información, tanto consu
 
 #### Opcional
 La Logica de la Aplicacion puede ser mejorarda agregando una de estas estructuras logicas, pudiendo existir 3 variantes del Patron **RSM** :
+
 Auxiliary **(a)** : Solo se utiliza logica propias del desarrollador.
-Broker **(b)** : Solo se utiliza logica proveidas por terceros
+
+Broker **(b)** : Solo se utiliza logica proveidas por terceros.
+
 Mixta **(c)** : Combinando logica propias y de terceros.
 
 ### Gestion de datos
