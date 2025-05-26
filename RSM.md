@@ -8,7 +8,7 @@
 Permitir que un módulo o componente solo pueda comunicarse entre ellos sin exponer al cliente los archivos que contengan la logica.
 
 ### Historia
-El patrón RSM (Routing - Scheme - Manager / Enrutamiento - Esquema - Gestor), es una nueva forma de estructurar la logica de un proyecto de software sea Web o Escritorio en el cual busca implementar aplicaciones software en en base a su funcionamiento y aumentar la seguridad y claridad de los mismos.​
+El patrón RSM (Routing - Scheme - Manager / Enrutamiento - Esquema - Gestor), es una nueva forma de estructurar la logica de un proyecto de software sea Web o Escritorio en el cual busca implementar software en base a su funcionamiento y aumentar la seguridad y claridad de los mismos.​
 
 En **RSM** se plantea que el codigo sea totalmente propio para evitar contaminacion externa de la aplicacion y con ello vulnerar la aplicacion o la infraestructura del negocio.
 
