@@ -6,10 +6,12 @@
 
 
 ### Intención
+---
 Permitir que un módulo o componente solo pueda comunicarse entre ellos sin exponer al cliente los archivos que contengan la logica.
 
 
 ### Historia
+---
 El patrón RSM (Routing - Scheme - Manager / Enrutamiento - Esquema - Gestor), es una nueva forma de estructurar la logica de un proyecto de software sea Web o Escritorio en el cual busca implementar software en base a su funcionamiento y aumentar la seguridad y claridad de los mismos.​
 
 En **RSM** se plantea que el codigo sea totalmente propio para evitar contaminacion externa de la aplicacion y con ello vulnerar la aplicacion o la infraestructura del negocio.
@@ -29,7 +31,7 @@ Existe la posibilidad de reducir el Patron **RSM** y este se puede representar d
 
 
 ### Contexto
-
+---
 Este patrón es útil en cualquier entorno desarrollo, produccion, pruebas, se busca separa y optimizar la logica de negocio mejorando la seguridad del software.
 
 Se puede aplicar en:
@@ -39,6 +41,7 @@ Se puede aplicar en:
 
 
 ### Participantes - Descripcion de Componentes
+---
 Los componentes de RSM se definen a continuacion:
 
 #### Routing (R)
@@ -61,6 +64,7 @@ Mixta **(c)** : Combinando logica propias y de terceros.
 
 
 ### Gestion de datos
+---
 La gestion de los datos es manejada por **Manager** o **Auxiliary** los cuales son las unicas clases con la posibilidad de acceder a la base de datos
 La unión entre capa de presentación y capa de negocio conocido en el paradigma de la Programación por capas representaría la integración entre el Enrutador (Routing) de eventos, la Interfaz (Scheme) y el Acceso a Datos (Manager).
 
@@ -81,6 +85,7 @@ La gestion de la seguridad se base en acceso cero a las Clases o Modulos de form
 
 
 ### Consecuencias
+---
 #### Ventajas
 - Alta flexibilidad y escalabilidad.
 - Código más limpio y desacoplado.
@@ -93,10 +98,12 @@ La gestion de la seguridad se base en acceso cero a las Clases o Modulos de form
 
 
 ### Ejemplo de aplicación
+---
 
 `RSM EXAMPLES.md`
 
 ### Créditos y Reconocimiento
+---
 
 Este patrón de diseño fue desarrollado por **Percy Alexander Caballero Lucano** en colaboración con **BSG Perú**.
 
