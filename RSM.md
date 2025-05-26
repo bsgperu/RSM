@@ -4,8 +4,10 @@
 **Patrocinado por:** BSG Perú  
 **Fecha:** 2025
 
+
 ### Intención
 Permitir que un módulo o componente solo pueda comunicarse entre ellos sin exponer al cliente los archivos que contengan la logica.
+
 
 ### Historia
 El patrón RSM (Routing - Scheme - Manager / Enrutamiento - Esquema - Gestor), es una nueva forma de estructurar la logica de un proyecto de software sea Web o Escritorio en el cual busca implementar software en base a su funcionamiento y aumentar la seguridad y claridad de los mismos.​
@@ -21,6 +23,7 @@ Existe la posibilidad de reducir el Patron **RSM** y este se puede representar d
 
 **RSM** fue desarrollado por Percy Alexander Caballero Lucano durante la inspeccion de un sistema en el cual la logica presentada era confusa y desordenada, para lo cual se procuro separar y jerarquizar la logica de la interfaz limitando el acceso a los recursos de la aplicacion solo a las clases de la misma aumentando la seguridad ya que solo existe una ruta de acceso al mismo. 
 
+
 ### Contexto
 
 Este patrón es útil en cualquier entorno desarrollo, produccion, pruebas, se busca separa y optimizar la logica de negocio mejorando la seguridad del software.
@@ -29,6 +32,7 @@ Se puede aplicar en:
 - Microservicios.
 - Plugins.
 - Bibliotecas.
+
 
 ### Participantes - Descripcion de Componentes
 Los componentes de RSM se definen a continuacion:
@@ -51,9 +55,11 @@ Broker **(b)** : Solo se utiliza logica proveidas por terceros.
 
 Mixta **(c)** : Combinando logica propias y de terceros.
 
+
 ### Gestion de datos
 La gestion de los datos es manejada por **Manager** o **Auxiliary** los cuales son las unicas clases con la posibilidad de acceder a la base de datos
 La unión entre capa de presentación y capa de negocio conocido en el paradigma de la Programación por capas representaría la integración entre el Enrutador (Routing) de eventos, la Interfaz (Scheme) y el Acceso a Datos (Manager).
+
 
 ### Colaboraciones - Interacción de los componentes
 - El usuario interactúa con la interfaz de usuario (Ejm. index.php).
@@ -69,16 +75,22 @@ La unión entre capa de presentación y capa de negocio conocido en el paradigma
 #### Seguridad
 La gestion de la seguridad se base en acceso cero a las Clases o Modulos de forma directa por parte del usuario la unica forma de acceder a los datos es por medio de Routing filtrando y redireccionando todo evento no autorizado a una clase especializada en seguridad.
 
+
 ### Consecuencias
 #### Ventajas
 Alta flexibilidad y escalabilidad.
+
 Código más limpio y desacoplado.
+
 Reducción de errores al estar jerarquizado.
+
 Facilidad de Adaptabilidad al patron.
 
 #### Posibles inconvenientes
 Requiere una estrategia clara.
+
 Puede requerir mas tiempo de planificacion.
+
 
 ### Ejemplo de aplicación
 
