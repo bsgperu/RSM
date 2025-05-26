@@ -1,2 +1,2 @@
 # RSM
-Patron de Diseño jerarquizado y priorizando la seguridad del software
+Patron de Diseño jerarquizado que prioriza la seguridad del software
