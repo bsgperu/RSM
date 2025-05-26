@@ -78,23 +78,19 @@ La gestion de la seguridad se base en acceso cero a las Clases o Modulos de form
 
 ### Consecuencias
 #### Ventajas
-Alta flexibilidad y escalabilidad.
-
-Código más limpio y desacoplado.
-
-Reducción de errores al estar jerarquizado.
-
-Facilidad de Adaptabilidad al patron.
+- Alta flexibilidad y escalabilidad.
+- Código más limpio y desacoplado.
+- Reducción de errores al estar jerarquizado.
+- Facilidad de Adaptabilidad al patron.
 
 #### Posibles inconvenientes
-Requiere una estrategia clara.
-
-Puede requerir mas tiempo de planificacion.
+- Requiere una estrategia clara.
+- Puede requerir mas tiempo de planificacion.
 
 
 ### Ejemplo de aplicación
 
-`EXAMPLES.md`
+`RSM EXAMPLES.md`
 
 ### Créditos y Reconocimiento
 
