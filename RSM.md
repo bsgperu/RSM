@@ -14,7 +14,11 @@ El patrón RSM (Routing - Scheme - Manager / Enrutamiento - Esquema - Gestor), e
 
 En **RSM** se plantea que el codigo sea totalmente propio para evitar contaminacion externa de la aplicacion y con ello vulnerar la aplicacion o la infraestructura del negocio.
 
-Por ello el patron de diseño cuenta con 3 tipos segun sus complementos, Propios **(a)**, De Terceros **(b)** y Mixto **(c)**.
+Por ello el patron de diseño cuenta con 3 tipos segun sus complementos, 
+
+- Propios **(a)**.
+- De Terceros **(b)**.
+- Mixto **(c)**.
 
 Existe la posibilidad de reducir el Patron **RSM** y este se puede representar de 2 formas:
 
